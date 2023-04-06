@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.info {
+	text-align: right;
+	height: 25px;
+}
+
+header {
+	/* background-color: red; */
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	font-weight: bolder;
+}
+
+.menu li {
+	margin: 0 10px;
+}
+
+.board table {
+	border-collapse: collapse;
+	margin: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.board th, .board td {
+	border-bottom: 1px solid #d1d1d1;
+	padding: 5px 10px;
+}
+
+.title {
+	width: 55%;
+	text-align: left;
+}
+
+.page ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.page li {
+	margin: 0 10px;
+}
+
+.search form {
+	display: flex;
+	justify-content: center;
+}
+
+.search form * {
+	margin: 10px 1px;
+}
+
+.inputForm {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.inputForm legend {
+	text-align: center;
+}
+
+.inputForm form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputForm form * {
+	margin: 5px 0;
+}
+
+.bContents {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.bContents table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.bContents th, .bContents td {
+	border: 1px solid #d1d1d1;
+	padding: 10px 15px;
+}
+
+.bContents input, .bContents textarea {
+	width: 100%;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	font-family: consolas;
+	resize: none;
+}
+
+.bContents textarea {
+	min-height: 650px;
+}
+
+footer {
+	/* background-color: blue; */
+	height: 50px;
+	text-align: center;
+}
